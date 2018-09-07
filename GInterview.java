@@ -1,4 +1,4 @@
-public class GoogleInterview {
+public class GInterview {
     public static class Queue {
 	class Node {
             int data;
