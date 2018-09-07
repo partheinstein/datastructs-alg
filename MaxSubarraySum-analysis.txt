@@ -1,0 +1,45 @@
+-8 -3 -6 -2 -5 -4
+
+maxSum = -1000
+maxi = 0
+maxLength = 6
+
+i = 0
+sum = -8
+length = 1
+maxSum = -8
+maxLength = 1
+maxi = 0
+j = 1
+(-8 + -3) < -8
+
+i=1
+sum = -3
+length = 1
+maxSum = -3
+maxLength = 1
+maxi = 1
+j = 2
+(-3 + -6) < -3
+
+i=2
+sum = -6
+j=3
+(-6 + -2) < -3
+
+i = 3
+sum = -2
+-2 > -3
+maxSum = -2
+maxLength = 1
+maxi = 4
+j = 5
+(-2 + -5) < -2
+
+i = 4
+sum = -5
+j=5
+(-5 + -4) < -2
+
+
+
